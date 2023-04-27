@@ -48,7 +48,10 @@ lvim.plugins = {
 
   { "christoomey/vim-tmux-navigator" },
   { "tpope/vim-surround" },
-  { "felipec/vim-sanegx", event = "BufRead" },
+  {
+    "felipec/vim-sanegx",
+    event = "BufRead"
+  },
   {
     "windwp/nvim-ts-autotag",
     config = function()
@@ -81,6 +84,13 @@ lvim.plugins = {
       end)
     end,
   },
+  {
+    "folke/trouble.nvim",
+    cmd = "TroubleToggle",
+  },
+  {
+    "Igorjan94/codeforces.vim",
+  }
 }
 
 table.insert(lvim.plugins, {
