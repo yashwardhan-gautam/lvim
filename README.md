@@ -1,2 +1,59 @@
 ## LunarVim Config
 This project contains my configuration of [LunarVim](https://www.lunarvim.org/) editor.  
+
+#### Common Shortcuts
+- `gn` create a new tab
+- `mp` makrdown preview
+- `gt` switch between the tabs
+- `Shift L/H` navigate between buffers
+- `Space x` Save everything and close
+- `Space Ss` restore previous session in the directory
+- `Alt 1/2/3` Open horizontal/vertical/floating terminal
+- `r` replace current char
+- `gr` get references of a keyword
+- `gd` get defination of a keyword
+- `gD` get type defination of a keyword
+- `gf` get telescope frequency
+- `Space sb` checkout branch
+- `Space sC` search for commands
+- `Space sw` search for the current word
+- `Ctrl c` close telescope window
+- `Space tp` Telescope projects
+- `Space tr` Telescope resume projects
+- `Space mt` Toggle Harpoon List
+- `Space mm` Harpoon Mark File
+- `Space m a/s/d/f` Harpoon goto 1/2/3/4 marked file
+- `Space Sl` Restore Last session
+- `Space SQ` Quit without saving session
+- `Space Ss` Reload Last session for current dir
+- `Space d` Debugging Menu
+- `Space c` close buffer
+- `Space ;/a` Dashboard
+- `Space Lk` View Lunar Keymappings
+- `Space Lu` Lunar Update
+- `Space Lc` Edit config.lua
+- `Space \` Comment toggle current line
+- `Space gg` Lazygit
+- `Space gk` previous git hunk
+- `Space gj` next git hunk
+- `Space gu` undo stage hunk
+- `Space gd` git diff
+- `Space gp` preview hunk
+- `Space gR` Resent buffer
+- `Space lk` prev diagnostic
+- `Space lj` next diagnostic 
+- `Space lw` diagnostics
+- `Space ll` codelens action
+- `Space le` Teelscope QuickFix
+- `Space q` Quit
+- `Space Wv` Maximize window vertically
+- `Space Wh` Maximize window horizontally
+- `Space W=` Resize Windows Equally
+- `Space Ws` Search Tabs
+- `Space sk` Telescope Keymaps
+- `Space sf` Telescope find_files
+- `Space e` explore
+- `gc` comment toggle linewise
+- `gcA` comment insert end of line
+- `gcO` comment insert above
+- `gco` comment insert below

@@ -7,6 +7,7 @@ lvim.keys.normal_mode["<leader>w"] = ":Bdelete<cr>"
 lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
 lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
 vim.keymap.set('n', 'gn', ":tabe %<CR>")
+vim.keymap.set('n', 'mp', ":MarkdownPreview<CR>")
 
 lvim.lsp.buffer_mappings.normal_mode["gr"] = {
   ":lua require'telescope.builtin'.lsp_references()<cr>",
