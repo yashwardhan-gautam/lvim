@@ -1,5 +1,5 @@
 -- configure tsserver server manually.
--- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "tsserver" })
+-- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "rust_analyzer" })
 
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup({

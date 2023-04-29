@@ -42,6 +42,7 @@ lvim.builtin.treesitter.highlight.enabled = true
 
 lvim.builtin.project.detection_methods = { "lsp", "pattern" }
 lvim.builtin.project.patterns = {
+  "Cargo.toml",
   ".git",
   "package-lock.json",
   "yarn.lock",
